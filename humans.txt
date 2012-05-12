@@ -1,15 +1,15 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  MauricioAizaga.com: José Mauricio Aizaga Galeano
+  Site: mauricioaizaga.com
+  Twitter: @MaoAiz
+  Location: Pereira, Risaralda - Colombia
 
 /* THANKS */
-  Names (& URL):
+  Names (& URL): 
+	html5boilerplate.com
+	jquery.com
+	modernizr.com
 
 /* SITE */
   Standards: HTML5, CSS3
