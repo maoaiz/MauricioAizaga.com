@@ -1,13 +1,11 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# [MauricioAizaga.com está basado en HTML5 Boilerplate](http://html5boilerplate.com)
 
-HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.
-
-This project is the product of many years of iterative development and combined community knowledge. It does not impose a specific development philosophy or framework, so you're free to architect your code in the way that you want.
+HTML5 Boilerplate es una plantilla de front-end profesional que et ayuda a construir webs mucho mas rápido más robusto y adaptable.
 
 
-## Quick start
+## Descarga el código de MauricioAizaga.com
 
-Clone the git repo - `git clone git://github.com/h5bp/html5-boilerplate.git` - or [download it](https://github.com/h5bp/html5-boilerplate/zipball/master)
+Copia el repositorio - `git clone git://github.com/MaoAiz/MauricioAizaga.om.git` - or [download it](https://github.com/MaoAiz/MauricioAizaga.om/zipball/master)
 
 
 ## Features
