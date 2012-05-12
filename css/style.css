@@ -217,10 +217,52 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Mauricio Aizaga @MaoAiz
    ========================================================================== */
-
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:helvetica,Verdana;
+    font-size:16px;
+    background-image: url("../img/fondo.png");
+}
+a,a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.b{
+    border:solid thin #dadada;
+}
+.box{
+    overflow: hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body > header{
+    text-align: center;
+    height: 100px;
+}
+body > #main{
+    min-height: 400px;
+}
+body > footer{
+    background-image: url("../img/bg-footer.png");
+    color:white;
+    height: 300px;
+    text-align: center;
+}
+body > footer div a:visited{
+    color:white;
+}
+body > footer > div{
+    padding: 40px;
+}
 
 
 
