@@ -378,7 +378,7 @@ body > footer > div{
 
 @media screen and (max-width:700px){
     .social{
-        width: 80%;
+        width: 90%;
     }
     body > header > h1{
         font-size: 42px;
@@ -386,8 +386,8 @@ body > footer > div{
 }
 @media screen and (max-width:481px){
     .social{
-        width: 80%;
-        color:green;
+        width: 60%;
+        border:solid thin green;
     }
     .social > div{
         float: left;
@@ -397,6 +397,9 @@ body > footer > div{
     body > header > h1{
         font-size: 28px;
     }
+    #mauricioaizaga{
+        font-size: 28px;
+    }
 }
 @media screen and (max-width:321px){
     #facebook{
@@ -404,7 +407,12 @@ body > footer > div{
     }
     .social{
         width: 100%;
-        color:red;
+    }
+    #mauricioaizaga{
+        font-size: 24px;
+    }
+    #facebook a span:hover{
+        font-size: 18px;
     }
 }
 /*--------------------</Responsive design>------------------------*/
