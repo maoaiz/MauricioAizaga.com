@@ -13,30 +13,57 @@ setInterval(function(){
 $("#ancho").text($("#main").width())
 },100);
 
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+
+
+/* Efectos del footer*/
 $("#facebook a .social-pictures").addClass("trans");
 $("#facebook").hover(hoverf,nohoverf);
+$("#twitter a .social-pictures").addClass("trans");
+$("#twitter").hover(hovert,nohovert);
+
 function hoverf(){
     $("#facebook a .social-pictures").addClass("transHover");
-    $("#facebook a span").addClass("fb-font-color");
-    $("#facebook a span").text("fb.com/MaoAiz");
+    $("#facebook a span").fadeOut(200,function(){
+        $("#facebook a span").addClass("fb-font-color");
+        $("#facebook a span").text("fb.com/MaoAiz");
+        $("#facebook a span").fadeIn(450);
+    });
 }
 function nohoverf(){
     $("#facebook a .social-pictures").removeClass("transHover");
-    $("#facebook a span").removeClass("fb-font-color");
-    $("#facebook a span").text("facebook");
+    $("#facebook a span").fadeOut(200,function(){
+        $("#facebook a span").removeClass("fb-font-color");
+        $("#facebook a span").text("facebook");
+        $("#facebook a span").fadeIn(150);
+    });
 }
-$("#twitter a .social-pictures").addClass("trans");
-$("#twitter").hover(hovert,nohovert);
 function hovert(){
     $("#twitter a .social-pictures").addClass("transHover");
-    $("#twitter a span").addClass("tw-font-color");
-    $("#twitter a span").text("@MaoAiz");
+    $("#twitter a span").fadeOut(200,function(){
+        $("#twitter a span").addClass("tw-font-color");
+        $("#twitter a span").text("@MaoAiz");
+        $("#twitter a span").fadeIn(450);
+    });
 }
 function nohovert(){
     $("#twitter a .social-pictures").removeClass("transHover");
-    $("#twitter a span").removeClass("tw-font-color");
-    $("#twitter a span").text("twitter");   
+    $("#twitter a span").fadeOut(200,function(){
+        $("#twitter a span").removeClass("fb-font-color");
+        $("#twitter a span").removeClass("tw-font-color");
+        $("#twitter a span").text("twitter");
+        $("#twitter a span").fadeIn(150);
+    });   
 }
+/* cierra efectos del footer*/
 
 $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").css({"position":"relative","top":"0px"});
 $("#ma, #o, #a, #i, #z, #c2, #o2, #m2").css({"position":"relative","top":"0px"});
