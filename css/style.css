@@ -355,7 +355,7 @@ body > footer > div{
 }
 .fb-font-color{
     color: #3b5998;
-    font-size: 28px;
+    font-size: 0.8em;
 }
 .efecto{
     
@@ -378,7 +378,7 @@ body > footer > div{
 
 @media screen and (max-width:700px){
     .social{
-        width: 90%;
+        width: 100%;
     }
     body > header > h1{
         font-size: 42px;
@@ -387,7 +387,7 @@ body > footer > div{
 @media screen and (max-width:481px){
     .social{
         width: 60%;
-        border:solid thin green;
+
     }
     .social > div{
         float: left;
@@ -412,7 +412,29 @@ body > footer > div{
         font-size: 24px;
     }
     #facebook a span:hover{
+/*        font-size: 18px;*/
+    }
+}
+@media screen and (max-width:241px){
+    body > footer > div{
+        padding: 1em 0;
+/*        border: solid thin gray;*/
+    }
+    .social{
+        width: 80%;
+/*        border: solid thin red;*/
+    }
+    .social > div *{
+        font-size: 18px; 
+    }
+    body > header > h1{
         font-size: 18px;
+    }
+    #mauricioaizaga{
+        font-size: 18px;
+    }
+    #facebook a span:hover{
+/*        font-size: 18px;*/
     }
 }
 /*--------------------</Responsive design>------------------------*/

@@ -32,11 +32,16 @@ $("#twitter").hover(hovert,nohovert);
 
 function hoverf(){
     $("#facebook a .social-pictures").addClass("transHover");
-    $("#facebook a span").fadeOut(200,function(){;
-        if($("#ancho").width()<350)
-            $("#facebook a span").css({"font-size":"22px"});
+    $("#facebook a span").fadeOut(200,function(){
+        if($("#main").width()<320){
+//            alert($("#main").width());
+//            $("#facebook a span").css({"font-size":"22px"});
+            $("#facebook a span").text("/MaoAiz");
+        }
+        else{
+            $("#facebook a span").text("fb.com/MaoAiz");
+        }
         $("#facebook a span").addClass("fb-font-color");
-        $("#facebook a span").text("fb.com/MaoAiz");
         $("#facebook a span").fadeIn(450);
     });
 }
@@ -44,7 +49,7 @@ function nohoverf(){
     $("#facebook a .social-pictures").removeClass("transHover");
     $("#facebook a span").fadeOut(200,function(){
         $("#facebook a span").removeClass("fb-font-color");
-        $("#facebook a span").text("facebook").css({"font-size":"30px"});
+        $("#facebook a span").text("facebook");//.css({"font-size":"30px"});
         $("#facebook a span").fadeIn(150);
     });
 }
