@@ -103,8 +103,8 @@ function hoverh(){
 function nohoverh(){
 //    $("#ma,#z,#punto").animate({"marginRight":"1em"}, function(){
 //        })
-        $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").css({"visibility":"visible","display":""});
-        $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").animate({"top":"0px","width":"0.5em"}, "1000")
+//        $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").css({"visibility":"visible","display":""});
+//        $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").animate({"top":"0px","width":"0.5em"}, "1000")
 //        $("#ma,#z,#punto").animate({"marginRight":"0em"})
 //    $("#u, #r, #i1, #c, #i2, #a2, #g, #a3").fadeIn("linear");
 }
